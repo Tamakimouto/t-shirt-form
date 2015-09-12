@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+
+<html>
+  <body>
+
+    <!-- This is the main block -->
+    <div align="center" style="width: 50%; display: block;">
+
+      <h2>Donate</h2>
+      <p>
+        We could say something here, like please make a donation for a
+        shirt/checkout our "Dare to Ask" T-Shirts, etc
+      </p>
+
+      <fieldset>
+        <legend>Order a shirt</legend>
+
+        <!-- The Name field -->
+        <div style="display: inline;">
+          Name: <br>
+          <input type="text" value="First Name" size="30">
+          <input type="text" value="Last Name" size="30">
+        </div>
+
+        <!-- Address Field -->
+        <div style="display: block;">
+          Address: <br>
+          <input type="text" value="Street Address" size="50"><br>
+          <input type="text" value="City" size="20">
+          <select name="states">
+            <option value="default" selected>State</option>
+          </select>
+          <input type="text" value="Zip Code" size="10">
+        </div>
+
+        <br><br>
+
+        <!-- Shirt Options -->
+        <div style="display: inline-block;
+                    width: 100%;">
+
+          <!-- Preview -->
+          <div style="display: inline-block; width: 40%; padding-right: 2%;">
+            <img src="img/white.png" style="width: 100%; height: auto;">
+          </div> <!-- Preview END -->
+
+          <!-- Options -->
+          <div style="display: inline-block; width: 40%; vertical-align: top;">
+            <p>Style: 5000 Gildan Heavy Cotton</p>
+            Color: <select name="colors">
+              <option value="white" selected>White</option>
+              <option value="black">Black</option>
+            </select>
+            &nbsp
+            Size: <select name="size">
+              <option value="small" selected>S</option>
+              <option value="medium">M</option>
+            </select>
+            <br>
+            <p>
+              We can put some other stuff here if we want to
+            </p>
+          </div> <!-- Options END -->
+
+        </div> <!-- Shirt options END -->
+
+        <br><br>
+        <input type="submit" value="Donate">
+
+      </fieldset>
+    </div>
+
+
+  </body>
+</html>
