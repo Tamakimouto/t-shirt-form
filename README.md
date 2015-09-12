@@ -7,4 +7,4 @@ Hopefully I can get it into Wordpress.
 This is pretty much where I'm going with it.
 
 ## Pic
-![example](src/sample.png)
+![screenshot](img/sample.png "Basic, not styling done")
